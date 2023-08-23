@@ -3,33 +3,36 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-18 00:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-08-23 13:01+0200\n"
+"Last-Translator: Stefano Landini Salcino <salcino@gmail.com>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: ../Doc/tutorial/appendix.rst:5
 msgid "Appendix"
-msgstr ""
+msgstr "Appendice"
 
 #: ../Doc/tutorial/appendix.rst:11
+#, fuzzy
 msgid "Interactive Mode"
-msgstr ""
+msgstr "Modalità Interattiva"
 
 #: ../Doc/tutorial/appendix.rst:16
+#, fuzzy
 msgid "Error Handling"
-msgstr ""
+msgstr "Gestione degli Errori"
 
 #: ../Doc/tutorial/appendix.rst:18
+#, fuzzy
 msgid ""
 "When an error occurs, the interpreter prints an error message and a stack "
 "trace. In interactive mode, it then returns to the primary prompt; when "
@@ -41,8 +44,19 @@ msgid ""
 "messages are written to the standard error stream; normal output from "
 "executed commands is written to standard output."
 msgstr ""
+"Quando si verifica un errore, l'interprete stampa un messaggio di errore e "
+"una traccia dello stack. In modalità interattiva, ritorna quindi al prompt "
+"primario; quando l'input proviene da un file, esce con uno stato di uscita "
+"diverso da zero dopo aver stampato la traccia dello stack. (Le eccezioni "
+"gestite da una clausola :keyword:`Except` in un'istruzione :keyword:`try` "
+"non sono errori in questo contesto.) Alcuni errori sono incondizionatamente "
+"fatali e causano un'uscita con un'uscita diversa da zero; questo vale per "
+"incoerenze interne e alcuni casi di esaurimento della memoria. Tutti i "
+"messaggi di errore vengono scritti nel flusso di errori standard; l'output "
+"normale dei comandi eseguiti viene scritto sullo standard output."
 
 #: ../Doc/tutorial/appendix.rst:28
+#, fuzzy
 msgid ""
 "Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) "
 "to the primary or secondary prompt cancels the input and returns to the "
@@ -50,18 +64,28 @@ msgid ""
 "the :exc:`KeyboardInterrupt` exception, which may be handled by a :keyword:"
 "`try` statement."
 msgstr ""
+"Digitando il carattere di interruzione (solitamente :kbd:`Control-C` o :kbd:"
+"`Delete`) al prompt primario o secondario si annulla l'input e si ritorna al "
+"prompt primario. [#]_ Digitare un'interruzione mentre un comando è in "
+"esecuzione solleva l'eccezione :exc:`KeyboardInterrupt`, che può essere "
+"gestita da un'istruzione :keyword:`try`."
 
 #: ../Doc/tutorial/appendix.rst:38
+#, fuzzy
 msgid "Executable Python Scripts"
-msgstr ""
+msgstr "Script Python eseguibili"
 
 #: ../Doc/tutorial/appendix.rst:40
+#, fuzzy
 msgid ""
 "On BSD'ish Unix systems, Python scripts can be made directly executable, "
 "like shell scripts, by putting the line ::"
 msgstr ""
+"Sui sistemi Unix simili a BSD, gli script Python possono essere resi "
+"direttamente eseguibili, come gli script di shell, inserendo la riga ::"
 
 #: ../Doc/tutorial/appendix.rst:45
+#, fuzzy
 msgid ""
 "(assuming that the interpreter is on the user's :envvar:`PATH`) at the "
 "beginning of the script and giving the file an executable mode.  The ``#!`` "
@@ -70,14 +94,25 @@ msgid ""
 "(``'\\r\\n'``) line ending.  Note that the hash, or pound, character, "
 "``'#'``, is used to start a comment in Python."
 msgstr ""
+"(assumendo che l'interprete si trovi sul :envvar:`PATH` dell'utente) "
+"all'inizio dello script e dando al file una modalità eseguibile. Il ``#!`` "
+"deve essere costituito dai primi due caratteri del file. Su alcune "
+"piattaforme, questa prima riga deve terminare con un finale di linea in "
+"stile Unix (``'\\n'``), non con un finale di linea in stile Windows "
+"(``'\\r\\n'``). Da notare che il carattere hash, o cancelletto, ``'#'``, "
+"viene utilizzato per iniziare un commento in Python."
 
 #: ../Doc/tutorial/appendix.rst:52
+#, fuzzy
 msgid ""
 "The script can be given an executable mode, or permission, using the :"
 "program:`chmod` command."
 msgstr ""
+"Allo script può essere assegnata una modalità eseguibile, o autorizzazione, "
+"utilizzando il comando :program:`chmod`."
 
 #: ../Doc/tutorial/appendix.rst:59
+#, fuzzy
 msgid ""
 "On Windows systems, there is no notion of an \"executable mode\".  The "
 "Python installer automatically associates ``.py`` files with ``python.exe`` "
@@ -85,12 +120,19 @@ msgid ""
 "extension can also be ``.pyw``, in that case, the console window that "
 "normally appears is suppressed."
 msgstr ""
+"Sui sistemi Windows non esiste la nozione di \"modalità eseguibile\". Il "
+"programma di installazione Python associa automaticamente i file ``.py`` a "
+"``python.exe`` in modo che un doppio clic su un file Python lo eseguirà come "
+"uno script. L'estensione può anche essere ``.pyw``, in tal caso la finestra "
+"della console che appare normalmente viene soppressa."
 
 #: ../Doc/tutorial/appendix.rst:69
+#, fuzzy
 msgid "The Interactive Startup File"
-msgstr ""
+msgstr "Il file di avvio interattivo"
 
 #: ../Doc/tutorial/appendix.rst:71
+#, fuzzy
 msgid ""
 "When you use Python interactively, it is frequently handy to have some "
 "standard commands executed every time the interpreter is started.  You can "
@@ -98,8 +140,14 @@ msgid ""
 "the name of a file containing your start-up commands.  This is similar to "
 "the :file:`.profile` feature of the Unix shells."
 msgstr ""
+"Quando usi Python in modo interattivo, spesso è utile eseguire alcuni "
+"comandi standard ogni volta che viene avviato l'interprete. Puoi farlo "
+"impostando una variabile d'ambiente denominata :envvar:`PYTHONSTARTUP` sul "
+"nome di un file contenente i comandi di avvio. Questo è simile alla "
+"funzionalità :file:`.profile` delle shell Unix."
 
 #: ../Doc/tutorial/appendix.rst:77
+#, fuzzy
 msgid ""
 "This file is only read in interactive sessions, not when Python reads "
 "commands from a script, and not when :file:`/dev/tty` is given as the "
@@ -109,8 +157,17 @@ msgid ""
 "qualification in the interactive session. You can also change the prompts "
 "``sys.ps1`` and ``sys.ps2`` in this file."
 msgstr ""
+"Questo file viene letto solo nelle sessioni interattive, non quando Python "
+"legge i comandi da uno script e non quando :file:`/dev/tty` viene fornito "
+"come sorgente esplicita dei comandi (che altrimenti si comporta come una "
+"sessione interattiva). Viene eseguito nello stesso spazio dei nomi in cui "
+"vengono eseguiti i comandi interattivi, in modo che gli oggetti che "
+"definisce o importa possano essere utilizzati senza qualifica nella sessione "
+"interattiva. In questo file è inoltre possibile modificare i prompt ``sys."
+"ps1`` e ``sys.ps2``."
 
 #: ../Doc/tutorial/appendix.rst:85
+#, fuzzy
 msgid ""
 "If you want to read an additional start-up file from the current directory, "
 "you can program this in the global start-up file using code like ``if os."
@@ -118,39 +175,61 @@ msgid ""
 "want to use the startup file in a script, you must do this explicitly in the "
 "script::"
 msgstr ""
+"Se vuoi leggere un ulteriore file di avvio dalla directory corrente, puoi "
+"programmarlo nel file di avvio globale usando codice come ``if os.path."
+"isfile('.pythonrc.py'): exec(open ('.pythonrc.py').read())``. Se desideri "
+"utilizzare il file di avvio in uno script, devi farlo esplicitamente nello "
+"script::"
 
 #: ../Doc/tutorial/appendix.rst:102
+#, fuzzy
 msgid "The Customization Modules"
-msgstr ""
+msgstr "I moduli di personalizzazione"
 
 #: ../Doc/tutorial/appendix.rst:104
+#, fuzzy
 msgid ""
 "Python provides two hooks to let you customize it: :mod:`sitecustomize` and :"
 "mod:`usercustomize`.  To see how it works, you need first to find the "
 "location of your user site-packages directory.  Start Python and run this "
 "code::"
 msgstr ""
+"Python fornisce due hook per consentirti di personalizzarlo: :mod:"
+"`sitecustomize` e :mod:`usercustomize`. Per vedere come funziona, devi prima "
+"trovare la posizione della directory dei pacchetti del sito dell'utente. "
+"Avvia Python ed esegui questo codice::"
 
 #: ../Doc/tutorial/appendix.rst:112
+#, fuzzy
 msgid ""
 "Now you can create a file named :file:`usercustomize.py` in that directory "
 "and put anything you want in it.  It will affect every invocation of Python, "
 "unless it is started with the :option:`-s` option to disable the automatic "
 "import."
 msgstr ""
+"Ora puoi creare un file chiamato :file:`usercustomize.py` in quella "
+"directory e inserirvi tutto ciò che desideri. Influirà su ogni invocazione "
+"di Python, a meno che non venga avviato con l'opzione :option:`-s` per "
+"disabilitare l'importazione automatica."
 
 #: ../Doc/tutorial/appendix.rst:116
+#, fuzzy
 msgid ""
 ":mod:`sitecustomize` works in the same way, but is typically created by an "
 "administrator of the computer in the global site-packages directory, and is "
 "imported before :mod:`usercustomize`.  See the documentation of the :mod:"
 "`site` module for more details."
 msgstr ""
+":mod:`sitecustomize` funziona allo stesso modo, ma in genere viene creato da "
+"un amministratore del computer nella directory globale dei pacchetti del "
+"sito e viene importato prima di :mod:`usercustomize`. Consulta la "
+"documentazione del modulo :mod:`site` per maggiori dettagli."
 
 #: ../Doc/tutorial/appendix.rst:123
 msgid "Footnotes"
-msgstr ""
+msgstr "Note a piè di pagina"
 
 #: ../Doc/tutorial/appendix.rst:124
+#, fuzzy
 msgid "A problem with the GNU Readline package may prevent this."
-msgstr ""
+msgstr "Un problema con il pacchetto GNU Readline potrebbe impedirlo."
