@@ -3,77 +3,100 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-18 00:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-08-23 16:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: ../Doc/glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "Glossario"
 
 #: ../Doc/glossary.rst:10
 msgid "``>>>``"
-msgstr ""
+msgstr "``>>>``"
 
 #: ../Doc/glossary.rst:12
+#, fuzzy
 msgid ""
 "The default Python prompt of the interactive shell.  Often seen for code "
 "examples which can be executed interactively in the interpreter."
 msgstr ""
+"Il prompt Python predefinito della shell interattiva. Spesso visto per "
+"esempi di codice che possono essere eseguiti in modo interattivo "
+"nell'interprete."
 
 #: ../Doc/glossary.rst:14
 msgid "``...``"
-msgstr ""
+msgstr "``...``"
 
 #: ../Doc/glossary.rst:16
+#, fuzzy
 msgid "Can refer to:"
-msgstr ""
+msgstr "Può riferirsi a:"
 
 #: ../Doc/glossary.rst:18
+#, fuzzy
 msgid ""
 "The default Python prompt of the interactive shell when entering the code "
 "for an indented code block, when within a pair of matching left and right "
 "delimiters (parentheses, square brackets, curly braces or triple quotes), or "
 "after specifying a decorator."
 msgstr ""
+"Il prompt Python predefinito della shell interattiva quando si immette il "
+"codice per un blocco di codice rientrato, quando si trova all'interno di una "
+"coppia di delimitatori sinistro e destro corrispondenti (parentesi, "
+"parentesi quadre, parentesi graffe o virgolette triple) o dopo aver "
+"specificato un decoratore."
 
 #: ../Doc/glossary.rst:23
+#, fuzzy
 msgid "The :const:`Ellipsis` built-in constant."
-msgstr ""
+msgstr "La costante incorporata :const:`Ellipsis`."
 
 #: ../Doc/glossary.rst:24
 msgid "2to3"
-msgstr ""
+msgstr "2to3"
 
 #: ../Doc/glossary.rst:26
+#, fuzzy
 msgid ""
 "A tool that tries to convert Python 2.x code to Python 3.x code by handling "
 "most of the incompatibilities which can be detected by parsing the source "
 "and traversing the parse tree."
 msgstr ""
+"Uno strumento che tenta di convertire il codice Python 2.x in codice Python "
+"3.x gestendo la maggior parte delle incompatibilità che possono essere "
+"rilevate analizzando il sorgente e attraversando l'albero di analisi."
 
 #: ../Doc/glossary.rst:30
+#, fuzzy
 msgid ""
 "2to3 is available in the standard library as :mod:`lib2to3`; a standalone "
 "entry point is provided as :file:`Tools/scripts/2to3`.  See :ref:`2to3-"
 "reference`."
 msgstr ""
+"2to3 è disponibile nella libreria standard come :mod:`lib2to3`; viene "
+"fornito un punto di ingresso autonomo come :file:`Tools/scripts/2to3`. Vedi :"
+"ref:`riferimento-2to3`."
 
 #: ../Doc/glossary.rst:33
+#, fuzzy
 msgid "abstract base class"
-msgstr ""
+msgstr "classe base astratta"
 
 #: ../Doc/glossary.rst:35
+#, fuzzy
 msgid ""
 "Abstract base classes complement :term:`duck-typing` by providing a way to "
 "define interfaces when other techniques like :func:`hasattr` would be clumsy "
@@ -86,65 +109,109 @@ msgid ""
 "module), import finders and loaders (in the :mod:`importlib.abc` module).  "
 "You can create your own ABCs with the :mod:`abc` module."
 msgstr ""
+"Le classi base astratte completano :term:`duck-typing` fornendo un modo per "
+"definire le interfacce quando altre tecniche come :func:`hasattr` sarebbero "
+"goffe o leggermente sbagliate (ad esempio con i metodi :ref:`magic <special-"
+"lookup> `). Gli ABC introducono sottoclassi virtuali, che sono classi che "
+"non ereditano da una classe ma sono comunque riconosciute da :func:"
+"`isinstance` e :func:`issubclass`; vedere la documentazione del modulo :mod:"
+"`abc`. Python viene fornito con molti ABC integrati per strutture dati (nel "
+"modulo :mod:`collections.abc`), numeri (nel modulo :mod:`numbers`), flussi "
+"(nel modulo :mod:`io`) , importa cercatori e caricatori (nel modulo :mod:"
+"`importlib.abc`). Puoi creare i tuoi ABC con il modulo :mod:`abc`."
 
 #: ../Doc/glossary.rst:46
+#, fuzzy
 msgid "annotation"
-msgstr ""
+msgstr "annotazione"
 
 #: ../Doc/glossary.rst:48
+#, fuzzy
 msgid ""
 "A label associated with a variable, a class attribute or a function "
 "parameter or return value, used by convention as a :term:`type hint`."
 msgstr ""
+"A label associated with a variable, a class attribute or a function "
+"parameter or return value, used by convention as a :term:`type hint`."
 
 #: ../Doc/glossary.rst:52
+#, fuzzy
 msgid ""
 "Annotations of local variables cannot be accessed at runtime, but "
 "annotations of global variables, class attributes, and functions are stored "
 "in the :attr:`__annotations__` special attribute of modules, classes, and "
 "functions, respectively."
 msgstr ""
+"Non è possibile accedere alle annotazioni delle variabili locali in fase di "
+"runtime, ma le annotazioni delle variabili globali, degli attributi di "
+"classe e delle funzioni sono archiviate rispettivamente nell'attributo "
+"speciale :attr:`__annotations__` di moduli, classi e funzioni."
 
 #: ../Doc/glossary.rst:58
+#, fuzzy
 msgid ""
 "See :term:`variable annotation`, :term:`function annotation`, :pep:`484` "
 "and :pep:`526`, which describe this functionality. Also see :ref:"
 "`annotations-howto` for best practices on working with annotations."
 msgstr ""
+"Vedi :term:`annotazione variabile`, :term:`annotazione funzione`, :pep:`484` "
+"e :pep:`526`, che descrivono questa funzionalità. Vedi anche :ref:"
+"`annotations-howto` per le migliori pratiche su come lavorare con le "
+"annotazioni."
 
 #: ../Doc/glossary.rst:62
 msgid "argument"
-msgstr ""
+msgstr "argomento"
 
 #: ../Doc/glossary.rst:64
+#, fuzzy
 msgid ""
 "A value passed to a :term:`function` (or :term:`method`) when calling the "
 "function.  There are two kinds of argument:"
 msgstr ""
+"Un valore passato a :term:`funzione` (o :term:`metodo`) quando si chiama la "
+"funzione. Esistono due tipi di argomentazione:"
 
 #: ../Doc/glossary.rst:67
+#, fuzzy
 msgid ""
 ":dfn:`keyword argument`: an argument preceded by an identifier (e.g. "
 "``name=``) in a function call or passed as a value in a dictionary preceded "
 "by ``**``.  For example, ``3`` and ``5`` are both keyword arguments in the "
 "following calls to :func:`complex`::"
 msgstr ""
+":dfn:`argomento parola chiave`: un argomento preceduto da un identificatore "
+"(ad esempio ``nome=``) in una chiamata di funzione o passato come valore in "
+"un dizionario preceduto da ``**``. Ad esempio, ``3`` e ``5`` sono entrambi "
+"argomenti di parole chiave nelle seguenti chiamate a :func:`complex`::"
 
 #: ../Doc/glossary.rst:75
+#, fuzzy
 msgid ""
 ":dfn:`positional argument`: an argument that is not a keyword argument. "
 "Positional arguments can appear at the beginning of an argument list and/or "
 "be passed as elements of an :term:`iterable` preceded by ``*``. For example, "
 "``3`` and ``5`` are both positional arguments in the following calls::"
 msgstr ""
+":dfn:`argomento posizionale`: un argomento che non è un argomento con parola "
+"chiave. Gli argomenti posizionali possono apparire all'inizio di una lista "
+"di argomenti e/o essere passati come elementi di un :term:`iterable` "
+"preceduto da ``*``. Ad esempio, \"3\" e \"5\" sono entrambi argomenti "
+"posizionali nelle seguenti chiamate:"
 
 #: ../Doc/glossary.rst:84
+#, fuzzy
 msgid ""
 "Arguments are assigned to the named local variables in a function body. See "
 "the :ref:`calls` section for the rules governing this assignment. "
 "Syntactically, any expression can be used to represent an argument; the "
 "evaluated value is assigned to the local variable."
 msgstr ""
+"Gli argomenti vengono assegnati alle variabili locali denominate nel corpo "
+"della funzione. Vedi la sezione :ref:`calls` per le regole che governano "
+"questo incarico. Dal punto di vista sintattico, qualsiasi espressione può "
+"essere utilizzata per rappresentare un argomento; il valore valutato viene "
+"assegnato alla variabile locale."
 
 #: ../Doc/glossary.rst:89
 msgid ""

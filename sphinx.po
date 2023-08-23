@@ -41,7 +41,6 @@ msgstr ""
 "Deprecato dalla versione {deprecated}, sarà rimosso nella versione {removed}."
 
 #: ../Doc/tools/templates/dummy.html:8
-#, fuzzy
 msgid "Deprecated since version {deprecated}, removed in version {removed}"
 msgstr ""
 "Deprecato dalla versione {deprecated}, sarà rimosso nella versione {removed}."
@@ -66,7 +65,7 @@ msgstr "Python 3.6 (correzioni di sicurezza)"
 
 #: ../Doc/tools/templates/dummy.html:17
 msgid "EOL"
-msgstr ""
+msgstr "EOL"
 
 #: ../Doc/tools/templates/indexcontent.html:8
 #, fuzzy
@@ -251,12 +250,11 @@ msgstr "Documenti per versione"
 
 #: ../Doc/tools/templates/indexsidebar.html:5
 msgid "Stable"
-msgstr ""
+msgstr "Stabile"
 
 #: ../Doc/tools/templates/indexsidebar.html:6
-#, fuzzy
 msgid "In development"
-msgstr "Python 3.8 (in sviluppo)"
+msgstr "In sviluppo"
 
 #: ../Doc/tools/templates/indexsidebar.html:7
 msgid "All versions"
@@ -284,18 +282,19 @@ msgstr "Interventi audio/video"
 
 #: ../Doc/tools/templates/indexsidebar.html:17
 msgid "Python Developer’s Guide"
-msgstr ""
+msgstr "Guida Python per lo sviluppatore"
 
 #: ../Doc/tools/templates/layout.html:6
 msgid ""
 "This document is for an old version of Python that is no longer supported.\n"
 "    You should upgrade, and read the "
 msgstr ""
+"Questo documento riguarda una vecchia versione di Python che non è più supportata.\n"
+"    Dovresti aggiornare e leggere il file "
 
 #: ../Doc/tools/templates/layout.html:8
-#, fuzzy
 msgid " Python documentation for the current stable release"
-msgstr "Benvenuti! Questa è la documentazione di Python %(release)s."
+msgstr "Documentazione di Python per la versione stabile attuale %(release)"
 
 #~ msgid "Python 3.7 (stable)"
 #~ msgstr "Pitone 3.7 (stabile)"
